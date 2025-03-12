@@ -49,17 +49,23 @@ CertificationView.js - Displays the added certifications
 
 ## How to Use:
 
-Open the application.
+1. Open the GitHub link and copy the code to your local machine.
 
-Fill out the Certification Name and Issuer fields.
+2. Add the certification name and issuer of the certificate. ( Note: Maximum of 5 Certificates can be added. )
 
-Upload a PDF or JPG certification file.
+3. Select the files that need to be uploaded. (Note: The file must be in PDF or JPG format.)
 
-Click "Add Certification" to store it temporarily.
+4. Click the "Add Certification" button to upload the certificate.
 
-Click "Save Certifications" to store them in Redux state.
+5. If any required fields are not filled out correctly, an error message will be displayed, stating that the details are required and that the uploaded file must be in PDF or JPG format.
 
-View added certifications on the Certifications View page.
+6. After adding the file and clicking the "Add Certification" button, click the "Save Certification" button to proceed.
+
+7. If you click the " Save Certification " button without entering the required details such as the Certification name, Issuer, and uploading a file, an error will appear stating, "Please add at least one certification before saving."
+
+8. After clicking the " Save Certification " button, you will see the added certification on this page under "View Certification", displaying the Certification name, Issuer, and uploaded file.
+
+9. By clicking "View Certification", the Certification will open in a new tab.
 
 ## Deployment Link:
 
